@@ -1,10 +1,7 @@
-package com.demo.base
+package com.demo.recycleview
 
 import android.app.Application
-import android.app.NotificationChannel
-import android.app.NotificationManager
-import android.os.Build
-import com.demo.base.di.DaggerAppComponent
+import com.demo.recycleview.di.DaggerAppComponent
 import dagger.android.AndroidInjector
 import dagger.android.DispatchingAndroidInjector
 import dagger.android.HasAndroidInjector

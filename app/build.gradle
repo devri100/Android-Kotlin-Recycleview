@@ -8,7 +8,7 @@ android {
     buildToolsVersion "29.0.3"
 
     defaultConfig {
-        applicationId "com.demo.base"
+        applicationId "com.demo.recycleview"
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 1
@@ -76,6 +76,7 @@ dependencies {
     //implementation "androidx.room:room-runtime:$room_version"
     implementation "androidx.room:room-ktx:2.2.5"
     kapt "androidx.room:room-compiler:2.2.5"
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
 
     //implementation "com.github.jrvansuita:PickImage:+"
     //implementation "com.google.android.gms:play-services-location:17.0.0"
@@ -83,4 +84,10 @@ dependencies {
 
     //implementation 'com.github.bumptech.glide:glide:4.11.0'
     //kapt 'com.github.bumptech.glide:compiler:4.11.0'
+
+
+    implementation "androidx.cardview:cardview:1.0.0"
+    implementation "com.google.android.material:material:1.1.0"
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
 }

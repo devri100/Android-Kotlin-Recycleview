@@ -1,6 +1,6 @@
-package com.demo.base.di
+package com.demo.recycleview.di
 
-import com.demo.base.MainActivity
+import com.demo.recycleview.MainActivity
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
 

@@ -1,9 +1,9 @@
-package com.demo.base.di
+package com.demo.recycleview.di
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.demo.base.ViewModelFactory
-import com.demo.base.ui.SampleViewModel
+import com.demo.recycleview.ViewModelFactory
+import com.demo.recycleview.ui.SampleViewModel
 import dagger.Binds
 import dagger.Module
 import dagger.multibindings.IntoMap

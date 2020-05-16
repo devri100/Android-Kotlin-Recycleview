@@ -1,4 +1,4 @@
-package com.demo.base.di
+package com.demo.recycleview.di
 
 import androidx.lifecycle.ViewModel
 import dagger.MapKey

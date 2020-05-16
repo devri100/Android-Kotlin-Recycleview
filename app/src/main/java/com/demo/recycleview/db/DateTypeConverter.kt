@@ -1,4 +1,4 @@
-package com.demo.base.db
+package com.demo.recycleview.db
 
 import androidx.room.TypeConverter
 import java.util.*

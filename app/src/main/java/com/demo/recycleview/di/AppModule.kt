@@ -1,12 +1,12 @@
-package com.demo.base.di
+package com.demo.recycleview.di
 
 import android.app.Application
 import android.content.Context
 import androidx.room.Room
-import com.demo.base.Constants.BASE_URL
-import com.demo.base.api.AppService
-import com.demo.base.api.BooleanTypeAdapter
-import com.demo.base.db.AppDb
+import com.demo.recycleview.Constants.BASE_URL
+import com.demo.recycleview.api.AppService
+import com.demo.recycleview.api.BooleanTypeAdapter
+import com.demo.recycleview.db.AppDb
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 import dagger.Module

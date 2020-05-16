@@ -1,9 +1,9 @@
-package com.demo.base
+package com.demo.recycleview
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.demo.base.models.Sample
-import com.demo.base.ui.SampleFragment
+import com.demo.recycleview.models.Todo
+import com.demo.recycleview.ui.ListFragment
 import dagger.android.AndroidInjection
 import dagger.android.AndroidInjector
 import dagger.android.DispatchingAndroidInjector
@@ -15,9 +15,6 @@ class MainActivity : AppCompatActivity(), HasAndroidInjector {
     @Inject
     lateinit var fragmentInjector: DispatchingAndroidInjector<Any>
 
-    @Inject
-    lateinit var sample: Sample
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         AndroidInjection.inject(this)
@@ -25,7 +22,7 @@ class MainActivity : AppCompatActivity(), HasAndroidInjector {
 
         if(savedInstanceState == null){
             supportFragmentManager.beginTransaction()
-                .replace(R.id.fragment_container, SampleFragment())
+                .replace(R.id.fragment_container, ListFragment())
                 .commit()
         }
     }

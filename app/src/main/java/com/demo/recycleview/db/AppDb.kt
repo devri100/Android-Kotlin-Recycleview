@@ -1,12 +1,12 @@
-package com.demo.base.db
+package com.demo.recycleview.db
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
-import com.demo.base.models.Sample
+import com.demo.recycleview.models.Todo
 
 @Database(
-    entities = [Sample::class],
+    entities = [Todo::class],
     version = 1,
     exportSchema = false
 )

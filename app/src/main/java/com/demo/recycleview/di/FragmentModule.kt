@@ -1,6 +1,6 @@
-package com.demo.base.di
+package com.demo.recycleview.di
 
-import com.demo.base.ui.SampleFragment
+import com.demo.recycleview.ui.ListFragment
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
 
@@ -9,6 +9,6 @@ import dagger.android.ContributesAndroidInjector
 abstract class FragmentModule {
 
     @ContributesAndroidInjector
-    abstract fun contributeSampleFragment(): SampleFragment
+    abstract fun contributeSampleFragment(): ListFragment
 
 }

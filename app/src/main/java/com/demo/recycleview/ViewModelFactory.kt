@@ -1,4 +1,4 @@
-package com.demo.base
+package com.demo.recycleview
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

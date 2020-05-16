@@ -1,4 +1,4 @@
-package com.demo.base
+package com.demo.recycleview
 
 object Constants {
 

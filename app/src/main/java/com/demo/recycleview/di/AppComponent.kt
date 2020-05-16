@@ -1,7 +1,7 @@
-package com.demo.base.di
+package com.demo.recycleview.di
 
 import android.app.Application
-import com.demo.base.App
+import com.demo.recycleview.App
 import dagger.BindsInstance
 import dagger.Component
 import dagger.android.AndroidInjectionModule
